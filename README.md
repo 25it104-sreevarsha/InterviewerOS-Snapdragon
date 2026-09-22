@@ -1,4 +1,12 @@
-# Interviewer OS
+## Snapdragon AI Lab Challenge: what's new
+This project began as Interviewer OS for ViCodathon (see original repo).
+For the Snapdragon AI Lab Build & Present Challenge it is being significantly
+modified to run fully on-device:
+- Local speech-to-text (Whisper via Qualcomm AI Hub / ONNX Runtime)
+- Local LLM provider (AI_PROVIDER=local)
+- Local memory provider (replaces the Breeth cloud API)
+- NPU vs CPU benchmark screen
+Target hardware: Snapdragon-powered HP PCs.# Interviewer OS
 
 An AI technical interviewer that adapts its questions to *your* actual
 learning journey — not a fixed question bank.
